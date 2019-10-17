@@ -7,22 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>Ashley Elder</title>
+  <title>Attila Demo - Articles in the misc category</title>
 
 
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-  <link href="./" rel="canonical" />
+  <link href="/" rel="canonical" />
 
   <!-- Feed -->
 
-  <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="/theme/css/style.css" type="text/css" rel="stylesheet" />
 
   <!-- Code highlight color scheme -->
-      <link href="./theme/css/code_blocks/github.css" rel="stylesheet">
+      <link href="/theme/css/code_blocks/github.css" rel="stylesheet">
 
+    <!-- CSS specified by the user -->
+
+
+    <link href="/assets/css/myblog.css" type="text/css" rel="stylesheet" />
 
   <!-- Custom fonts -->
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
@@ -39,24 +43,30 @@
 
 
 <!-- Open Graph -->
-<meta property="og:site_name" content="Ashley Elder"/>
+<meta property="og:site_name" content="Attila Demo"/>
 <meta property="og:type" content="blog"/>
-<meta property="og:title" content="Ashley Elder"/>
-<meta property="og:description" content="welcome to my personal website"/>
+<meta property="og:title" content="Attila Demo"/>
+<meta property="og:description" content="Blog description here."/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="./"/>
-<meta property="og:image" content="./https://raw.githubusercontent.com/ashleyelder/fileHosting/master/eldorado.png">
+<meta property="og:url" content="/"/>
+<meta property="og:image" content="/theme/images/home-bg.jpg">
 
 <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@arulrajnet">
+  <meta name="twitter:title" content="Attila Demo">
+  <meta name="twitter:description" content="Blog description here.">
+  <meta name="twitter:url" content="/">
+  <meta name="twitter:image:src" content="/theme/images/home-bg.jpg">
 
 <script type="application/ld+json">
 {
   "@context" : "http://schema.org",
   "@type" : "Website",
-  "name": " Ashley Elder ",
-  "url" : "./",
-  "image": "./https://raw.githubusercontent.com/ashleyelder/fileHosting/master/eldorado.png",
-  "description": "welcome to my personal website"
+  "name": " Attila Demo ",
+  "url" : "/",
+  "image": "/theme/images/home-bg.jpg",
+  "description": "Blog description here."
 }
 </script>
 </head>
@@ -78,17 +88,18 @@
     <header id="blog-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="/" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
           <span id="menu-button" class="nav-button">
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="blog-name"><a href="./">Ashley Elder</a></h1>
-        <span class="blog-description">welcome to my personal website</span>
-
-          <div class="blog-cover cover" style="background-image: url('https://raw.githubusercontent.com/ashleyelder/fileHosting/master/eldorado.png')">
+        <h1 class="post-title">Category misc</h1>
+        <span class="blog-description">Posts: 1</span>
+            <div class="blog-cover cover" style="background-image: url('/theme/images/post-bg.jpg')">
       </div>
     </header>
-
 
   <section id="wrapper">
     <a class="hidden-close"></a>
@@ -107,19 +118,22 @@
         <article class="post">
         <div class="inner">
             <header class="post-header">
-                <h2 class="post-title"><a href="./2019/10/pelican-portfolio-website.html" rel="bookmark" title="Permalink to Setting up Pelican">Setting up Pelican</a>
+                <h2 class="post-title"><a href="/2019/10/first-post.html" rel="bookmark" title="Permalink to First Post">First Post</a>
                 </h2>
                 <span class="post-meta">
-                        <a href="./author/ashley.html">Ashley</a>
+                        <a href="/author/zutrinken">Zutrinken</a>
                      | <time datetime="16 Oct 2019">16 Oct 2019</time>
                 </span>
                 <div class="clear"></div>
             </header>
                 <section class="post-excerpt">
                     <p>
-                        This is my first sample post, created with Pelican. I chose to re-create my portfolio site today with Pelican so that styling is taken care of by a theme and I can leverage this site for posts that are more case-study-type articles about projects...
+                        First blog post First post done with pelican.
                     </p>
                 </section>
+<p>
+  <a data-disqus-identifier="/2019/10/first-post.html" href="/2019/10/first-post.html#disqus_thread">comments</a>
+</p>
             </div>
         </article>
 
@@ -146,7 +160,26 @@
     </footer>
   </section>
 
-  <script type="text/javascript" src="./theme/js/script.js"></script>
+  <script type="text/javascript" src="/theme/js/script.js"></script>
 
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3546274-12']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+<script type="text/javascript">
+    var disqus_shortname = 'attilademo';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
 </body>
 </html>
