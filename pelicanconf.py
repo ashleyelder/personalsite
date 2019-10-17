@@ -6,6 +6,17 @@ AUTHOR = 'Ashley Elder'
 SITENAME = 'Ashley Elder'
 SITEURL = ''
 
+AUTHORS_BIO = {
+  "ashley": {
+    "name": "Ashley",
+    "cover": "https://raw.githubusercontent.com/ashleyelder/fileHosting/master/eldorado.png",
+    "image": "https://arulrajnet.github.io/attila-demo/assets/images/avatar.png",
+    "website": "http://ashleyelder.net",
+    "location": "Boulder, CO, USA",
+    "bio": "This is the place for a small biography with max 200 characters. Well, now 100 are left. Cool, hugh?"
+  }
+}
+
 PATH = 'content'
 
 TIMEZONE = 'America/Denver'
@@ -26,12 +37,12 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/ashleyelder'),
+          ('linkedin','https://www.linkedin.com/in/ashleyelder/'))
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-THEME = './themes/attila'
+THEME = 'attila-1.3'
