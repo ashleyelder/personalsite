@@ -17,6 +17,11 @@ TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = 'en'
 
+# Path to the folder containing the plugins
+PLUGIN_PATHS = ['pelican-plugins']
+# Enabled plugins
+PLUGINS = ['sitemap']
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -60,4 +65,18 @@ AUTHORS_BIO = {
     "location": "Boulder, CO, USA",
     "bio": "Full stack developer particularly interested in developing software that scales with best practices. I enjoy building things."
   }
+}
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 1,
+        'indexes': 0.5,
+        'pages': 0.5,
+    },
+    'changefreqs': {
+        'articles': 'always',
+        'indexes': 'hourly',
+        'pages': 'monthly'
+    }
 }
